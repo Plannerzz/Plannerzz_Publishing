@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>플래너즈</title>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/base.js"></script>
+    <link href="./css/layout.css" rel="stylesheet">
+</head>
+<body>
+    <div class="page-wrap">
+        <!-- S : 상단바 -->
+        <div class="top_bar">
+            <a href="#" title="뒤로가기" class="left">
+                <img src="./img/ico_leftarrow.svg" alt="왼쪽 화살표 이미지">
+            </a>
+            <h4 class="page_title">임시제목임</h4>
+            <a href="#" title="버튼 위치" class="right">
+                <img src="./img/ico_search.svg" alt="검색 아이콘">
+            </a>
+        </div>
+        <!-- E : 상단바 -->
+
+        <!-- S : 상단탭 -->
+        <ul class="tab">
+            <li class="on" data-tab="tab-1">가나다</li>
+            <li data-tab="tab-2">라마바</li>
+        </ul>
+        <!-- E : 상단탭 -->
+
+        <!-- S : 필터형태탭 -->
+        <div class="filtab">
+            <ul>
+                <li class="on">가마니</li>
+                <li>가마니</li>
+                <li>가마니</li>
+                <li>가마니</li>
+                <li>가마니</li>
+                <li>가마니</li>
+                <li>가마니</li>
+            </ul>
+        </div>
+        <!-- E : 필터형태탭 -->
+
+        <!-- S : 컨텐츠 영역 -->
+        <div class="container">
+            <!-- 상단에 탭이 있는 형태의 디자인 경우는 아래 tab-cont를 사용.-->
+            <div class="tab-cont">
+                <div id="tab-1" class="tab-content on">
+                    첫번째 탭 내용
+                </div>
+                <div id="tab-2" class="tab-content">
+                    두번째 탭 내용
+                </div>
+            </div>
+        </div>
+        <!-- E : 컨텐츠 영역 -->
+
+        <!-- S : 하단 메뉴 -->
+        <div class="nav">
+            <a href="#" title="홈" class="on">
+                <i><img src="./img/ico_menu01.svg" alt="홈 아이콘"></i>
+                <i class="active"><img src="./img/ico_menu01_on.svg" alt="홈 아이콘"></i>
+                <span>HOME</span>
+            </a>
+            <a href="#" title="그룹">
+                <i><img src="./img/ico_menu02.svg" alt="그룹 아이콘"></i>
+                <i class="active"><img src="./img/ico_menu02_on.svg" alt="그룹 아이콘"></i>
+                <span>그룹</span>
+            </a>
+            <a href="#" title="소셜">
+                <i><img src="./img/ico_menu03.svg" alt="소셜 아이콘"></i>
+                <i class="active"><img src="./img/ico_menu03_onsvg" alt="소셜 아이콘"></i>
+                <span>소셜</span>
+            </a>
+            <a href="#" title="커뮤니티">
+                <i><img src="./img/ico_menu04.svg" alt="커뮤니티 아이콘"></i>
+                <i class="active"><img src="./img/ico_menu04_on.svg" alt="커뮤니티 아이콘"></i>
+                <span>커뮤니티</span>
+            </a>
+            <a href="#" title="마이페이지">
+                <i><img src="./img/ico_menu05.svg" alt="마이페이지 아이콘"></i>
+                <i class="active"><img src="./img/ico_menu05_on.svg" alt="마이페이지 아이콘"></i>
+                <span>마이페이지</span>
+            </a>
+        </div>
+        <!-- E : 하단 메뉴 -->
+
+    </div>
+    <div class="popup">
+        <div class="modal-header"></div>
+        <div class="modal-body"></div>
+        <div class="modal-footer">
+            <div class="buttons">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
